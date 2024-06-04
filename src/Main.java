@@ -4,19 +4,19 @@ public class Main {
             String firstName = "Ivan ";
             String middleName = "Ivanovich ";
             String lastName = "Ivanov ";
-            String fullName = firstName + lastName + middleName;
-            System.out.println("Фио сотрудника - " + fullName);
+            String fullName = lastName + firstName + middleName;
+            System.out.println("Ф.И.О. сотрудника —  " + fullName);
         }
 
         {
             String fullName = "Ivanov Ivan Ivanovich";
-            System.out.println(fullName.toUpperCase());
+            System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
         }
 
         {
             String fullName = "Иванов Семён Семёнович";
             fullName = fullName.replace('ё', 'е');
-            System.out.println("Данные ФИО сотрудника - " + fullName);
+            System.out.println("Данные Ф.И.О. сотрудника - " + fullName);
 
         }
     }
